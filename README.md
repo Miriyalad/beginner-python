@@ -48,7 +48,7 @@ elif string.startswith(y):
 an example of braching in python is:
 
 ```
-x = rawinput()
+x = rawinput(x)
 
       if x == "Josh is bronze"
            return "yea dave your right he does suck"
@@ -59,7 +59,6 @@ x = rawinput()
 ## **Functions**
 
 ```
-
 An example of a function in python:
 
 def dave_is_cool(str):
@@ -67,6 +66,7 @@ def dave_is_cool(str):
     return "true"
   else:
     return "nananan"
-    
+
 dave_is_cool("welp trevor is bronze") # Expects nananan
 dave_is_cool("dave") # Expects true
+```
