@@ -58,13 +58,15 @@ x = rawinput()
            return" People shall bow down to the mighty dave"
 ## **Functions**
 
+```
+
 An example of a function in python:
 
-```
 def dave_is_cool(str):
   if str == "dave is cool":
     return "true"
   else:
     return "nananan"
+    
 dave_is_cool("welp trevor is bronze") # Expects nananan
 dave_is_cool("dave") # Expects true
